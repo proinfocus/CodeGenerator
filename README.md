@@ -33,5 +33,7 @@ public $2 $1 {
   set => SetValue ($1Property, value);
 }
 ```
-3. Click on the **Generate Code** to generate the code.
+
+3. Click on the **Generate Code** to generate the code. If you have 100 lines of property data, it will generate 100 properties based on the template, which would have taken a considerable amount of time, if done manually.
+
 4. That's it.
