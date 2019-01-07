@@ -1,6 +1,7 @@
 # CodeGenerator
 A web based code generator based on the template you supply. It can be used for any purpose, coding or otherwise.  Repetitive tasks sometimes get boring and result in typos, hence it needs some level of automation to overcome it. **That's exactly what this does!**
 
+![Sample](CodeGenerator.png)
 
 ### How to use?
 1. Enter your data line-by-line separated with commas in Input textbox. eg. for BindableProperty, the following will be the code:
