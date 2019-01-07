@@ -1,0 +1,6 @@
+public static readonly BindableProperty $1Property = BindableProperty.Create ("$1", typeof($2), typeof($3), $4);
+
+public $2 $1 {
+  get => ($2)GetValue ($1Property);
+  set => SetValue ($1Property, value);
+}

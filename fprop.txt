@@ -1,0 +1,29 @@
+private $1 _$2;
+public $1 $2
+{
+    get
+    {
+        return _$2;
+    }
+
+    set
+    {
+        if (value != _$2)
+        {
+            _$2 = value;
+            NotifyPropertyChanged();
+        }
+    }
+}
+--end
+public class DemoCustomer : INotifyPropertyChanged
+{
+    // Your generated properties here
+
+    public event PropertyChangedEventHandler PropertyChanged;
+    private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
+    {
+        if (PropertyChanged != null)
+            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+    }
+}

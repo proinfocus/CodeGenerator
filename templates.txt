@@ -1,0 +1,3 @@
+AttachedProperty=aprop.txt
+BindableProperty=bprop.txt
+FullPropertyWithNotifyPropertyChanged=fprop.txt

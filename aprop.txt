@@ -1,0 +1,5 @@
+public static readonly BindableProperty $1Property =
+  BindableProperty.CreateAttached ("$1", typeof($2), typeof($3), $4);
+
+public static $2 Get$1 (BindableObject view) => ($2)view.GetValue ($1Property);
+public static void Set$1 (BindableObject view, $2 value) => view.SetValue ($1Property, value);
