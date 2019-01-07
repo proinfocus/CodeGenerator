@@ -24,6 +24,14 @@ public float Radius {
 }
 ```
 
-2. Choose the template or type your template in the Template textbox
+2. Choose the template or type your template in the Template textbox. eg. for BindableProperty, the following will be the template:
+```C#
+public static readonly BindableProperty $1Property = BindableProperty.Create ("$1", typeof($2), typeof($3), $4);
+
+public $2 $1 {
+  get => ($2)GetValue ($1Property);
+  set => SetValue ($1Property, value);
+}
+```
 3. Click on the **Generate Code** to generate the code.
 4. That's it.
