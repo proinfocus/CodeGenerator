@@ -1,5 +1,5 @@
 # CodeGenerator
-A web based code generator based on the template you supply
+A web based code generator based on the template you supply. It can be used for any purpose Coding or otherwise.
 
 
 ### How to use?
